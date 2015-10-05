@@ -112,7 +112,6 @@ body {
 .reveal h2 {
 	font-size: 1.5rem;
 	font-family: 'Cantarell', sans-serif;
-	text-transform: uppercase;
 	letter-spacing: -1px;
 	margin: 1rem 0;
 	font-weight: 700;
@@ -125,6 +124,10 @@ body {
 	margin: 1rem 0 1rem 0;
 	font-size: 1rem;
 	text-transform: uppercase;
+}
+
+.reveal h4 {
+  text-transform: uppercase;
 }
 
 .reveal p {
@@ -162,11 +165,9 @@ body {
 }
 
 .reveal blockquote:before {
-	content: open-quote;
 }
 
 .reveal blockquote:after {
-	content: close-quote;
 	margin-left: 0.5rem;
 }
 .reveal q { quotes: '“' '”' 'k' 'g' }
