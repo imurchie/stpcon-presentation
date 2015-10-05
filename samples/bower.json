@@ -1,0 +1,23 @@
+{
+  "name": "nejs-presentation",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/imurchie/nejs-presentation",
+  "authors": [
+    "Isaac Murchie <isaac@saucelabs.com>"
+  ],
+  "description": "Presentation code for NeJS 2015",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "highlight": "~7.0.1",
+    "highlightjs": "~8.6.0"
+  }
+}
